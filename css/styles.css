@@ -64,15 +64,16 @@ p{
 }
 
 .title-image{
-    width: 60%;
+    width: 50%;
     margin-right: 0;
-    
+    /*transform: rotate(25deg);*/
 }
 #title-image-align{
     text-align: center;
 }
 #features{
     padding: 7% 15%;
+    background-color: #fff;
 }
 .feature-box {
     text-align: center;
@@ -108,4 +109,51 @@ p{
 }
 .carousel-item{
     padding: 7% 15%;
+}
+
+#pricing{
+    
+    text-align: center;
+    padding: 7% 15%;
+}
+#div-cardheader{
+    background-color: #FF7F50;
+}
+
+#cta{
+
+    padding:7% 15%;
+    text-align: center;
+    color: #fff;
+    background-color: #FF7F50;
+}
+
+.cta-heading{
+    font-family: "Monsterrat-Black";
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #FF7F50;
+    color: #fff;
+
+}
+.social-icon{
+    margin: 20px 10px;
+}
+#copyright{
+    color: #fff;
+}
+
+@media (max-width:1028px){
+
+    .title{
+        text-align: center;
+    }
+    .title_image{
+        position: static;
+        transform: rotate(0deg);
+    }
 }
