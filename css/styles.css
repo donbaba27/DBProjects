@@ -4,7 +4,8 @@ body {
 }
 
 #title {
-  background-color: #FF7F50;
+  /*background-color: #FF7F50;*/
+    background-color: #111;
    /*background: linear-gradient(#e66465, #fabf0f);*/
    color: #fff;
 }
@@ -15,7 +16,7 @@ body {
 
 h1{
     font-family: "Montserrat";
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     line-height: 1.5;
 }
 
@@ -73,7 +74,7 @@ p{
 }
 #features{
     padding: 7% 15%;
-    background-color: #fff;
+    background-color:gainsboro;
 }
 .feature-box {
     text-align: center;
@@ -112,7 +113,7 @@ p{
 }
 
 #pricing{
-    
+    background-color:gainsboro;
     text-align: center;
     padding: 7% 15%;
 }
@@ -157,3 +158,46 @@ p{
         transform: rotate(0deg);
     }
 }
+/*rotating earth*/
+
+/*body {
+    background-color: #111;
+  }*/
+  #earth {
+    width: 300px;
+    height: 300px;
+    background: url(https://web.archive.org/web/20150807125159if_/http://www.noirextreme.com/digital/Earth-Color4096.jpg);
+    border-radius: 50%;
+    background-size: 610px;
+    box-shadow: inset 8px 36px 80px 36px rgb(0, 0, 0), inset -6px 0 12px 4px rgba(255, 255, 255, 0.3);
+    animation-name: rotate;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    -webkit-animation-name: rotate;
+       -webkit-animation-duration: 12s;
+       -webkit-animation-iteration-count: infinite;
+       -webkit-animation-timing-function: linear;
+  }
+  @keyframes rotate {
+    from {
+      background-position: 0px 0px;
+    }
+    to {
+      background-position: 610px 0px;
+    }
+  }
+  @-webkit-keyframes rotate {
+    from {
+      background-position: 0px 0px;
+    }
+    to {
+      background-position: 610px 0px;
+    }
+  }
+  #earth-txt{
+    padding-top: 100px;
+    padding-left: 45px;
+    line-height: 2.5;
+    font-size: large;
+  }
