@@ -65,6 +65,7 @@ p{
 }
 
 .title-image{
+    padding-top: 50px;
     width: 50%;
     margin-right: 0;
     /*transform: rotate(25deg);*/
